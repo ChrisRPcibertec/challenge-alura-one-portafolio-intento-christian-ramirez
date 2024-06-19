@@ -42,14 +42,123 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
+    /* background-color: rgba(127, 255, 212, 0.151); */
+    display: flex;
+    justify-content: space-between;
 
+    height: 88px;
+    margin: auto;
+    max-width: 1136px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
 }
+
+/* Logo + nombre*/
+.menu__header{
+    
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+}
+
+.menu__header img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+
+
+
+.menu__list{
+    display: flex;
+    gap: 20px;
+}
+nav{
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    
+}
+
+/* nav li{
+    background-color: green;  
+}
+ */
+
+
+
+
+
+
+
 
 /*Sección Title*/
 
 section.title{
+    
+    margin: auto;
+    max-width: 1136px;
+    height: 368px;
+    margin-top: 32px;
+    
+}
+
+
+.title__div{
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 
 }
+
+.title__container{
+    height: auto;
+}
+
+.title__bio{
+    font-size: 52px ;
+    font-weight: bold;
+}
+
+.title__subsection{
+    font-size: 22px ;
+    font-weight: normal;
+}
+
+.title__network{
+   
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.title__network__item a{
+    font-size: 16px;
+    
+    display: flex; /* Hace que el contenido dentro del enlace sea flexible */
+    align-items: center; /* Centra verticalmente el contenido del enlace */
+
+}
+
+.title__network__item a img{
+    height: 16px;
+    width: 16px;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
 
 /*Sección About*/
 
